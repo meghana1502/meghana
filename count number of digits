@@ -1,0 +1,12 @@
+#include <stdio.h>
+#include <math.h>
+
+int main()
+{
+    long int num;
+    int n;
+    printf("Enter a number to find the number of digits: ");
+    scanf("%ld",&num);
+    n = log10(num)+1;
+    printf("The number of digits in %ld is %d",num,n);
+}
